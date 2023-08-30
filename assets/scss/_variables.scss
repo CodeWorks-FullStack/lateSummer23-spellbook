@@ -1,0 +1,41 @@
+$body-bg: #f9f9f9;
+$primary: #BC0F0F;
+$secondary: #D7D2BE;
+$success: #4285f4;
+$info: #5d0149;
+$warning: #fbcf33;
+$danger: #ea0606;
+$light: #e9ecef;
+$dark: #0e0e0f;
+$grey: #242527;
+
+// NOTE after we change the values, we need to recompile the styles using the console command 'npm run sass'
+// NOTE if if errors try 'npm i'
+// FIXME pin in this
+
+$font-sans-serif: Open Sans;
+$font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$gradient: linear-gradient(180deg, hsla(0, 0%, 100%, 0.15), hsla(0, 0%, 100%, 0));
+
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": $danger,
+  "success": $success,
+  "warning": $warning,
+  "info": $info,
+  "dark": $dark,
+  "grey": $grey,
+);
+
+$color-ranges: (
+  0: 0,
+  5: 5,
+  10: 10,
+  15: 15,
+  20: 20,
+  25: 25,
+  30: 30,
+  35: 35,
+  40: 40,
+);
